@@ -26,11 +26,13 @@ Working Groups, including RTCWEB and MMUSIC.
 
 The current list of deliverable is:
 
-- Websocket transport for TURN (draft-chenxin-behave-turn-websocket)
-- DTLS transport for TURN (draft-petithuguenin-tram-turn-dtls)
+- Gap analysis for traversal of HTTP proxies (draft TBD)
+- Protocol for traversal of HTTP proxies (TBD,
+  draft-chenxin-behave-turn-websocket is one of several proposals)
 - New authentication mechanism for TURN (draft-uberti-behave-turn-rest)
+- TURN server auto-discovery mechanism for enterprise and ISPs (draft TBD)
 - RFC5389-bis (draft TBD)
-- RFC5766-bis (draft TBD).
+- RFC5766-bis (draft TBD)
 
 Goals and Milestones:
 
