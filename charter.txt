@@ -1,4 +1,4 @@
-Charter v5
+Charter v6
 
 Turn Revised And Modernized (tram)
 ----------------------------------
@@ -33,9 +33,10 @@ The current list of deliverable is:
 - Protocol for traversal of HTTP proxies (TBD,
   draft-chenxin-behave-turn-websocket is one of several proposals)
 - New authentication mechanism for TURN (draft-uberti-behave-turn-rest)
+- Sharing credentials between WEB and TURN.
 - TURN server auto-discovery mechanism for enterprise and ISPs (draft TBD)
-- RFC5389-bis (draft TBD)
-- RFC5766-bis (draft TBD)
+- RFC5389-bis, with STUN hash agility, various bug fixes (draft TBD)
+- RFC5766-bis, with support for multitenant servers, various bug fixes (draft TBD)
 
 Goals and Milestones:
 
