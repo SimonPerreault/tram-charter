@@ -1,22 +1,27 @@
-Turn Revised And Modernized (tram)
+TURN Revised And Modernized (tram)
 ----------------------------------
 
-TURN was published as RFC 5766 in April 2010.  The protocol had seen a rather
-limited deployment since, mostly because its main usage is being one of the
-NAT traversal method of the ICE framework (RFC 5245), and ICE was itself slow
-to be deployed because other mechanisms were historically used by the VoIP
-industry. This situation has changed change drastically as ICE, and so TURN,
-is mandatory to implement in WebRTC, which is a set of technologies developed
-at the IETF and W3C aiming to enable Real Time Communication on the Web.
-Because of the ubiquity of the Web and of the new opportunities created by the
-arrival of WebRTC, there is a renewed interest in TURN and in ICE, as seen in
-the recent work on updating ICE, or in finalizing the URIs used to resolved
-the access to a STUN or TURN server.
+Traversal Using Relays around NAT (TURN) was published as RFC 5766 in April
+2010.  Until recently the protocol had only a rather limited deployment.  This
+is primarily due to the fact that its primary use case is as one of the NAT
+traversal methods of the Interactive Connectivity Establishment (ICE)
+framework (RFC 5245).  This inherent dependency on ICE combined with the fact
+that ICE itself was slow to achieve widespread adoption because other
+alternative mechanisms were historically used by the VoIP industry.  This
+situation has changed drastically as ICE, and consequently TURN, are mandatory
+to implement in WebRTC, which is a set of technologies developed at the IETF
+and W3C aiming to enable Real Time Communication on the Web.
 
-The goal of the TRAM Working Group is to consolidate in one place all the
-various initiatives in updating TURN and STUN and in defining new mechanisms for
-TURN, like authentication or transport, that are more suitable for the WebRTC
-environment.  The Working will coordinate with the RTCWeb Working Group.
+Because of the ubiquity of the Web and of the new opportunities created by the
+arrival of WebRTC, there is a renewed interest in TURN and ICE, as evidenced by
+the recent work updating the ICE framework, as well as standardizing the URIs
+used to access a STUN or TURN server.
+
+The goal of the TRAM Working Group is to consolidate the various initiatives
+to update TURN and STUN, including the definition of new transport and
+authentication mechanisms that make STUN and TURN more suitable for the WebRTC
+environment.  The Working Group will closely coordinate with the appropriate
+Working Groups, including RTCWEB and MMUSIC.
 
 The current list of deliverable is:
 
