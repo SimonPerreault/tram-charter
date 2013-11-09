@@ -1,0 +1,36 @@
+Turn Revised And Modernized (tram)
+----------------------------------
+
+TURN was published as RFC 5766 in April 2010.  The protocol had seen a rather
+limited deployment since, mostly because its main usage is being one of the
+NAT traversal method of the ICE framework (RFC 5245), and ICE was itself slow
+to be deployed because other mechanisms were historically used by the VoIP
+industry. This situation is about to change drastically as ICE, and so TURN,
+is mandatory
+to implement in WebRTC, which is a set of technologies developed at the IETF
+and W3C aiming to enable Real Time Communication on the Web.  Because of the
+ubiquity of the Web and of the new opportunities created by the arrival of
+WebRTC, there is a renewed interest in TURN and in ICE, as seen in the recent
+work on updating ICE, or in finalizing the URIs used to resolved the access to
+a STUN or TURN server.
+
+The goal of the TRAM Working Group is to consolidate in one place all the
+various initiatives in updating TURN and STUN and in defining new mechanisms for
+TURN, like authentication or transport, that are more suitable for the WebRTC
+environment.  The Working Group aim is to submit all its deliverables in a two
+years timeframe, and then close.  The Working will coordinate with the RTCWeb
+Working Group.
+
+The current list of deliverable is:
+
+- Websocket transport for TURN (draft-chenxin-behave-turn-websocket)
+- DTLS transport for TURN (to be published - Authors Gonzalo Salgueiro, Marc
+Petit-Huguenin)
+- New authentication mechanism for TURN (draft-uberti-behave-turn-rest)
+- RFC5389-bis (Authors TBD)
+- RFC5766-bis (Authors TBD).
+
+Goals and Milestones:
+
+[TBD]
+
