@@ -1,16 +1,17 @@
-TURN Revised And Modernized (tram)
+Turn Revised And Modernized (tram)
 ----------------------------------
 
 Traversal Using Relays around NAT (TURN) was published as RFC 5766 in April
 2010.  Until recently the protocol had only a rather limited deployment.  This
-is primarily due to the fact that its primary use case is as one of the NAT
-traversal methods of the Interactive Connectivity Establishment (ICE)
-framework (RFC 5245).  This inherent dependency on ICE combined with the fact
-that ICE itself was slow to achieve widespread adoption because other
-alternative mechanisms were historically used by the VoIP industry.  This
-situation has changed drastically as ICE, and consequently TURN, are mandatory
-to implement in WebRTC, which is a set of technologies developed at the IETF
-and W3C aiming to enable Real Time Communication on the Web.
+is primarily because its primary use case is as one of the NAT traversal
+methods of the Interactive Connectivity Establishment (ICE) framework (RFC
+5245).  This inherent dependency on ICE combined with the fact that ICE itself
+was slow to achieve widespread adoption because other alternative mechanisms
+were historically used by the VoIP industry were the causes of the initial
+lack of interest.  This situation has changed drastically as ICE, and
+consequently TURN, are mandatory to implement in WebRTC, which is a set of
+technologies developed at the IETF and W3C aiming to enable Real Time
+Communication on the Web.
 
 Because of the ubiquity of the Web and of the new opportunities created by the
 arrival of WebRTC, there is a renewed interest in TURN and ICE, as evidenced by
