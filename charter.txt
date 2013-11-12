@@ -18,7 +18,7 @@ Communication on the Web.
 Because of the ubiquity of the Web and of the new opportunities created by the
 arrival of WebRTC, there is a renewed interest in TURN and ICE, as evidenced by
 the recent work updating the ICE framework, as well as standardizing the URIs
-used to access a STUN or TURN server.
+used to access a STUN [RFC7064] or TURN [RFC7065] server.
 
 The goal of the TRAM Working Group is to consolidate the various initiatives
 to update TURN and STUN, including the definition of new transport and
@@ -32,7 +32,7 @@ The current list of deliverable is:
 
   Candidate draft: draft-hutton-rtcweb-nat-firewall-considerations
 
-  The working gorup will analyze what is missing in IETF protocols for enabling
+  The working group will analyze what is missing in IETF protocols for enabling
   TURN connectivity from networks where the only way out is through an HTTP
   proxy. Potential new protocol work, if any is necessary, will be identified.
 
@@ -53,7 +53,7 @@ The current list of deliverable is:
   The current authentication mechanism for TURN, which is reused from STUN, has
   been designed with a SIP account database in mind. The new RTCWEB usages,
   which are mostly based on web applications, do not fit that model. A new
-  authentication mechanism with the web in mind, will be created.
+  authentication mechanism optimized for such web applications will be created.
 
 - TURN server auto-discovery mechanism for enterprise and ISPs
 
@@ -62,9 +62,9 @@ The current list of deliverable is:
   Current TURN server discovery is based on the presence of SRV and/or NAPTR DNS
   records. These records are usually under the administrative control of the
   application or service provider, not the enterprise or the ISP on whose
-  network the client is situated. Enterprise or ISPs wishing to provide their
-  own TURN server, in an attempt at reducing so-called "triangle routing", need
-  a new auto-discovery mechanism.
+  network the client is situated. Enterprises or ISPs wishing to provide their
+  own TURN server, in an attempt to reduce so-called "triangle routing", need a
+  new auto-discovery mechanism.
 
 - STUN-bis
 
@@ -82,6 +82,7 @@ The current list of deliverable is:
   A new revision of RFC 5766 will contain:
 
   - Various bug fixes
+  - DTLS transport
   - Support for multi-tenant servers
     (Servers always send the same REALM attribute. No realm negotiation phase
      currently exists.)
