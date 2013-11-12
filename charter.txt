@@ -45,6 +45,13 @@ The current list of deliverable is:
   protocol work will be done unless the analysis finds a gap and recommends that
   the working group fill it.
 
+- DTLS transport for TURN
+
+  Candidate draft: draft-petithuguenin-tram-turn-dtls
+
+  TURN defines three transports: UDP, TCP, and TLS. A straightforward extension
+  of this set is DTLS, enabling secure datagram-oriented transport.
+
 - New authentication mechanism for TURN
 
   Problem analysis: draft-reddy-behave-turn-auth
@@ -82,7 +89,6 @@ The current list of deliverable is:
   A new revision of RFC 5766 will contain:
 
   - Various bug fixes
-  - DTLS transport
   - Support for multi-tenant servers
     (Servers always send the same REALM attribute. No realm negotiation phase
      currently exists.)
