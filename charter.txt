@@ -24,7 +24,7 @@ The goal of the TRAM Working Group is to consolidate the various initiatives
 to update TURN and STUN, including the definition of new transport and
 authentication mechanisms that make STUN and TURN more suitable for the WebRTC
 environment.  The Working Group will closely coordinate with the appropriate
-Working Groups, including RTCWEB and MMUSIC.
+Working Groups, including RTCWEB, MMUSIC, and HTTPBIS.
 
 The current list of deliverable is:
 
