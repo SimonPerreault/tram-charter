@@ -48,23 +48,23 @@ The current list of deliverable is:
 - New authentication mechanism for TURN
 
   Problem analysis: draft-reddy-behave-turn-auth
-  Candidate draft: draft-uberti-behave-turn-rest, OAuth has also been suggeted
+  Candidate draft: draft-uberti-behave-turn-rest, OAuth has also been suggested
 
   The current authentication mechanism for TURN, which is reused from STUN, has
-  been designed with a SIP account database in mind. The new RTCWEB uses, which
-  are mostly based on web applications, do not fit that model. A new
+  been designed with a SIP account database in mind. The new RTCWEB usages,
+  which are mostly based on web applications, do not fit that model. A new
   authentication mechanism with the web in mind, will be created.
 
 - TURN server auto-discovery mechanism for enterprise and ISPs
 
   Candidate draft: TBD
 
-  Current TURN server discovery is based on the presence of SRV DNS record. This
-  record is usually under the administrative control of the application or
-  service provider, not the enterprise or the ISP on whose network the client is
-  situated. Enterprise or ISPs wishing to provide their own TURN server, in an
-  attempt at reducing so-called "triangle routing", need a new auto-discovery
-  mechanism.
+  Current TURN server discovery is based on the presence of SRV and/or NAPTR DNS
+  records. These records are usually under the administrative control of the
+  application or service provider, not the enterprise or the ISP on whose
+  network the client is situated. Enterprise or ISPs wishing to provide their
+  own TURN server, in an attempt at reducing so-called "triangle routing", need
+  a new auto-discovery mechanism.
 
 - STUN-bis
 
