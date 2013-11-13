@@ -28,23 +28,6 @@ Working Groups, including RTCWEB, MMUSIC, and HTTPBIS.
 
 The current list of deliverable is:
 
-- Gap analysis for traversal of HTTP proxies
-
-  Candidate draft: draft-hutton-rtcweb-nat-firewall-considerations
-
-  The working group will analyze what is missing in IETF protocols for enabling
-  TURN connectivity from networks where the only way out is through an HTTP
-  proxy. Potential new protocol work, if any is necessary, will be identified.
-
-- Protocol for traversal of HTTP proxies
-
-  Candidate draft: TBD, draft-chenxin-behave-turn-websocket is one of several
-  proposals
-
-  This deliverable depends on the gap analysis from the previous deliverable. No
-  protocol work will be done unless the analysis finds a gap and recommends that
-  the working group fill it.
-
 - DTLS transport for TURN
 
   Candidate draft: draft-petithuguenin-tram-turn-dtls
