@@ -21,10 +21,10 @@ the recent work updating the ICE framework, as well as standardizing the URIs
 used to access a STUN [RFC7064] or TURN [RFC7065] server.
 
 The goal of the TRAM Working Group is to consolidate the various initiatives
-to update TURN and STUN, including the definition of new transport and
-authentication mechanisms that make STUN and TURN more suitable for the WebRTC
-environment.  The Working Group will closely coordinate with the appropriate
-Working Groups, including RTCWEB, MMUSIC, and HTTPBIS.
+to update TURN and STUN, including the definition of new transport,
+authentication mechanisms, and extensions, that make STUN and TURN more suitable
+for the WebRTC environment.  The Working Group will closely coordinate with the
+appropriate Working Groups, including RTCWEB, MMUSIC, and HTTPBIS.
 
 The current list of deliverable is:
 
